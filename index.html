@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Undangan Wisuda</title>
+  <link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Full screen background di body */
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      height: 100vh;
+      background-image: url('images/aa.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      overflow-x: hidden;
+    }
+
+    /* Untuk overlay gelap supaya teks terlihat jelas */
+    #cover {
+      background-color: rgba(0, 0, 0, 0.65); /* semi transparan hitam */
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      z-index: 30;
+    }
+
+    .hero-content {
+      max-width: 900px;
+      background: transparent;
+      padding: 2rem 3rem;
+      border-radius: 1rem;
+      color: white;
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Passions Conflict', cursive;
+    }
+
+    .btn {
+      transition: background-color 0.3s ease;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Hero Cover Section -->
+  <div id="cover">
+    <div class="hero-content">
+      <h4 class="font-semibold text-[20px] sm:text-[30px] mb-2 tracking-wider uppercase">Undangan Wisuda 2025</h4>
+      <h1 class="text-[48px] sm:text-[70px] md:text-[90px] font-bold leading-tight">M Ujank Sanusi S.Kom</h1>
+      <hr class="border-[2px] border-white w-[30%] my-4 mx-auto" />
+      <p class="font-medium text-[18px] sm:text-[20px] mb-4">Kami sangat mengharapkan kehadiran Anda</p>
+      <p class="mb-6 text-[16px] sm:text-[18px]">Semoga Anda selalu dalam keadaan sehat dan bahagia</p>
+      <a href="bukaundangan.html">
+        <button class="btn block py-3 w-[250px] mt-2 text-center text-white rounded-lg cursor-pointer mx-auto" style="background-color: #537D5D;">
+        Buka Undangan
+        </button>
+
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
